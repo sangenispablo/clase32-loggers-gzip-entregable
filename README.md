@@ -1,4 +1,4 @@
-# Servidor WEB/REST con ExpressJS + Mongoose + Passport-session + ConnectMongo + Passport-Local, persistencia en MongoDB Local, process, env, args, yargs, proceso hijos, BALANCE DE CARGA con PM2 y NGINX
+# Servidor WEB/REST con ExpressJS + Mongoose + Passport-session + ConnectMongo + Passport-Local, persistencia en MongoDB Local, process, env, args, yargs, proceso hijos, BALANCE DE CARGA con PM2 y NGINX, ahora agregamos "compresion" tambien logger con 'log4js' y se prueba el server con 'artillery'
 
 ### Para instalar los paquetes necesarios usar:
 
