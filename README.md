@@ -53,3 +53,9 @@ http {
     "pm2Monitor": "pm2 monit",
     "pm2DeleteAll": "pm2 delete all"
 ```
+
+## Agregamos compresion con "compress", agregamos loggers con log4js para probar, ejecutar el servidor en modo "fork" t ver la actividad en los .log o en la consola
+### En el caso de testear por estres usar artillery con el siguiente script en el package.json
+```
+"testArtillery": "artillery quick --count 50 -n 40 http://localhost:8081?max=100000 > result_fork.txt"
+```
